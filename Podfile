@@ -3,4 +3,7 @@ inhibit_all_warnings!
 
 target 'Playtomic Architecture Assignment' do
   pod 'Resolver'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxRelay'    
 end
