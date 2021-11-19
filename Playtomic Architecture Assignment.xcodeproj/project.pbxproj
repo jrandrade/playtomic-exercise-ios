@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F7FBE62747B8D6001D2559 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7FBE52747B8D6001D2559 /* UserListViewModel.swift */; };
+		04F7FBE92747C34E001D2559 /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7FBE82747C34E001D2559 /* DependencyManager.swift */; };
+		04F7FBF22747CA7B001D2559 /* Playtomic_Architecture_Assignment_UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7FBF12747CA7B001D2559 /* Playtomic_Architecture_Assignment_UnitTests.swift */; };
 		7873484B23F3085A00141848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7873484A23F3085A00141848 /* AppDelegate.swift */; };
 		7873484D23F3085A00141848 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7873484C23F3085A00141848 /* SceneDelegate.swift */; };
 		7873484F23F3085A00141848 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7873484E23F3085A00141848 /* UserListViewController.swift */; };
@@ -16,10 +19,26 @@
 		7873486323F308FE00141848 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7873486223F308FE00141848 /* UserService.swift */; };
 		7873486523F3092B00141848 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7873486423F3092B00141848 /* User.swift */; };
 		7873486723F30A1100141848 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7873486623F30A1100141848 /* UserDetailViewController.swift */; };
+		974CDF6577B044FE85553401 /* libPods-Playtomic Architecture Assignment UnitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F018642F1AB816744AF6F43E /* libPods-Playtomic Architecture Assignment UnitTests.a */; };
 		A2B843CD1054BA697ACC81DF /* libPods-Playtomic Architecture Assignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4108373C3897EC93DA95DF /* libPods-Playtomic Architecture Assignment.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		04F7FBF32747CA7B001D2559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7873483F23F3085A00141848 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7873484623F3085A00141848;
+			remoteInfo = "Playtomic Architecture Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		04F7FBE52747B8D6001D2559 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		04F7FBE82747C34E001D2559 /* DependencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyManager.swift; sourceTree = "<group>"; };
+		04F7FBEF2747CA7B001D2559 /* Playtomic Architecture Assignment UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Playtomic Architecture Assignment UnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F7FBF12747CA7B001D2559 /* Playtomic_Architecture_Assignment_UnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playtomic_Architecture_Assignment_UnitTests.swift; sourceTree = "<group>"; };
+		282ED8BD31B32791F9694E8D /* Pods-Playtomic Architecture Assignment UnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playtomic Architecture Assignment UnitTests.release.xcconfig"; path = "Target Support Files/Pods-Playtomic Architecture Assignment UnitTests/Pods-Playtomic Architecture Assignment UnitTests.release.xcconfig"; sourceTree = "<group>"; };
 		5D4108373C3897EC93DA95DF /* libPods-Playtomic Architecture Assignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Playtomic Architecture Assignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6966678ECE6F69B91E72EB70 /* Pods-Playtomic Architecture Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playtomic Architecture Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Playtomic Architecture Assignment/Pods-Playtomic Architecture Assignment.debug.xcconfig"; sourceTree = "<group>"; };
 		7844CE2C2412891900E00370 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -35,9 +54,19 @@
 		7873486423F3092B00141848 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7873486623F30A1100141848 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 		CDA4075551E8AD883F40AB4D /* Pods-Playtomic Architecture Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playtomic Architecture Assignment.release.xcconfig"; path = "Target Support Files/Pods-Playtomic Architecture Assignment/Pods-Playtomic Architecture Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		F018642F1AB816744AF6F43E /* libPods-Playtomic Architecture Assignment UnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Playtomic Architecture Assignment UnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C2B3DA87B6DFB5972012D5 /* Pods-Playtomic Architecture Assignment UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playtomic Architecture Assignment UnitTests.debug.xcconfig"; path = "Target Support Files/Pods-Playtomic Architecture Assignment UnitTests/Pods-Playtomic Architecture Assignment UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		04F7FBEC2747CA7B001D2559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974CDF6577B044FE85553401 /* libPods-Playtomic Architecture Assignment UnitTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7873484423F3085A00141848 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -49,13 +78,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04F7FBDD2747B7CE001D2559 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				04F7FBE22747B888001D2559 /* Views */,
+				04F7FBDF2747B7E9001D2559 /* Model */,
+				04F7FBDE2747B7DA001D2559 /* Service */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		04F7FBDE2747B7DA001D2559 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7873486223F308FE00141848 /* UserService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		04F7FBDF2747B7E9001D2559 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7873486423F3092B00141848 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04F7FBE02747B7F1001D2559 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				7873484E23F3085A00141848 /* UserListViewController.swift */,
+				04F7FBE52747B8D6001D2559 /* UserListViewModel.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		04F7FBE12747B7FC001D2559 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				7873486623F30A1100141848 /* UserDetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		04F7FBE22747B888001D2559 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04F7FBE12747B7FC001D2559 /* Detail */,
+				04F7FBE02747B7F1001D2559 /* List */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04F7FBE72747C326001D2559 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7873484A23F3085A00141848 /* AppDelegate.swift */,
+				7873484C23F3085A00141848 /* SceneDelegate.swift */,
+				04F7FBE82747C34E001D2559 /* DependencyManager.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		04F7FBF02747CA7B001D2559 /* Playtomic Architecture Assignment UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F7FBF12747CA7B001D2559 /* Playtomic_Architecture_Assignment_UnitTests.swift */,
+			);
+			path = "Playtomic Architecture Assignment UnitTests";
+			sourceTree = "<group>";
+		};
 		439B8D7484E6BDB6D9E7A9D2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				6966678ECE6F69B91E72EB70 /* Pods-Playtomic Architecture Assignment.debug.xcconfig */,
 				CDA4075551E8AD883F40AB4D /* Pods-Playtomic Architecture Assignment.release.xcconfig */,
+				F1C2B3DA87B6DFB5972012D5 /* Pods-Playtomic Architecture Assignment UnitTests.debug.xcconfig */,
+				282ED8BD31B32791F9694E8D /* Pods-Playtomic Architecture Assignment UnitTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -63,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				7873484923F3085A00141848 /* Playtomic Architecture Assignment */,
+				04F7FBF02747CA7B001D2559 /* Playtomic Architecture Assignment UnitTests */,
 				7873484823F3085A00141848 /* Products */,
 				439B8D7484E6BDB6D9E7A9D2 /* Pods */,
 				8F22252DF87AB0BA5E49B022 /* Frameworks */,
@@ -73,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				7873484723F3085A00141848 /* Playtomic Architecture Assignment.app */,
+				04F7FBEF2747CA7B001D2559 /* Playtomic Architecture Assignment UnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,10 +182,9 @@
 		7873484923F3085A00141848 /* Playtomic Architecture Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				7873485F23F3088100141848 /* service */,
-				7873485E23F3087B00141848 /* view */,
-				7873484A23F3085A00141848 /* AppDelegate.swift */,
-				7873484C23F3085A00141848 /* SceneDelegate.swift */,
+				04F7FBE72747C326001D2559 /* App */,
+				04F7FBDD2747B7CE001D2559 /* User */,
+				7873485023F3085A00141848 /* Main.storyboard */,
 				7873485323F3085A00141848 /* Assets.xcassets */,
 				7873485523F3085A00141848 /* LaunchScreen.storyboard */,
 				7873485823F3085A00141848 /* Info.plist */,
@@ -92,29 +193,11 @@
 			path = "Playtomic Architecture Assignment";
 			sourceTree = "<group>";
 		};
-		7873485E23F3087B00141848 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				7873484E23F3085A00141848 /* UserListViewController.swift */,
-				7873486623F30A1100141848 /* UserDetailViewController.swift */,
-				7873485023F3085A00141848 /* Main.storyboard */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		7873485F23F3088100141848 /* service */ = {
-			isa = PBXGroup;
-			children = (
-				7873486223F308FE00141848 /* UserService.swift */,
-				7873486423F3092B00141848 /* User.swift */,
-			);
-			path = service;
-			sourceTree = "<group>";
-		};
 		8F22252DF87AB0BA5E49B022 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5D4108373C3897EC93DA95DF /* libPods-Playtomic Architecture Assignment.a */,
+				F018642F1AB816744AF6F43E /* libPods-Playtomic Architecture Assignment UnitTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +205,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		04F7FBEE2747CA7B001D2559 /* Playtomic Architecture Assignment UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F7FBF52747CA7B001D2559 /* Build configuration list for PBXNativeTarget "Playtomic Architecture Assignment UnitTests" */;
+			buildPhases = (
+				9C5E7F8556E352CCEAC71F1A /* [CP] Check Pods Manifest.lock */,
+				04F7FBEB2747CA7B001D2559 /* Sources */,
+				04F7FBEC2747CA7B001D2559 /* Frameworks */,
+				04F7FBED2747CA7B001D2559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F7FBF42747CA7B001D2559 /* PBXTargetDependency */,
+			);
+			name = "Playtomic Architecture Assignment UnitTests";
+			productName = "Playtomic Architecture Assignment UnitTests";
+			productReference = 04F7FBEF2747CA7B001D2559 /* Playtomic Architecture Assignment UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		7873484623F3085A00141848 /* Playtomic Architecture Assignment */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7873485B23F3085A00141848 /* Build configuration list for PBXNativeTarget "Playtomic Architecture Assignment" */;
@@ -146,10 +248,14 @@
 		7873483F23F3085A00141848 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Playtomic;
 				TargetAttributes = {
+					04F7FBEE2747CA7B001D2559 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7873484623F3085A00141848;
+					};
 					7873484623F3085A00141848 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -169,11 +275,19 @@
 			projectRoot = "";
 			targets = (
 				7873484623F3085A00141848 /* Playtomic Architecture Assignment */,
+				04F7FBEE2747CA7B001D2559 /* Playtomic Architecture Assignment UnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		04F7FBED2747CA7B001D2559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7873484523F3085A00141848 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,23 +323,63 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9C5E7F8556E352CCEAC71F1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Playtomic Architecture Assignment UnitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04F7FBEB2747CA7B001D2559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F7FBF22747CA7B001D2559 /* Playtomic_Architecture_Assignment_UnitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7873484323F3085A00141848 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7873486323F308FE00141848 /* UserService.swift in Sources */,
+				04F7FBE62747B8D6001D2559 /* UserListViewModel.swift in Sources */,
 				7873484F23F3085A00141848 /* UserListViewController.swift in Sources */,
 				7873486723F30A1100141848 /* UserDetailViewController.swift in Sources */,
 				7873484B23F3085A00141848 /* AppDelegate.swift in Sources */,
 				7873486523F3092B00141848 /* User.swift in Sources */,
+				04F7FBE92747C34E001D2559 /* DependencyManager.swift in Sources */,
 				7873484D23F3085A00141848 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F7FBF42747CA7B001D2559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7873484623F3085A00141848 /* Playtomic Architecture Assignment */;
+			targetProxy = 04F7FBF32747CA7B001D2559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7873485023F3085A00141848 /* Main.storyboard */ = {
@@ -247,6 +401,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		04F7FBF62747CA7B001D2559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C2B3DA87B6DFB5972012D5 /* Pods-Playtomic Architecture Assignment UnitTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4JXCX87JS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jorgeandrade.Playtomic-Architecture-Assignment-UnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Playtomic Architecture Assignment.app/Playtomic Architecture Assignment";
+			};
+			name = Debug;
+		};
+		04F7FBF72747CA7B001D2559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282ED8BD31B32791F9694E8D /* Pods-Playtomic Architecture Assignment UnitTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4JXCX87JS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jorgeandrade.Playtomic-Architecture-Assignment-UnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Playtomic Architecture Assignment.app/Playtomic Architecture Assignment";
+			};
+			name = Release;
+		};
 		7873485923F3085A00141848 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -400,6 +608,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04F7FBF52747CA7B001D2559 /* Build configuration list for PBXNativeTarget "Playtomic Architecture Assignment UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F7FBF62747CA7B001D2559 /* Debug */,
+				04F7FBF72747CA7B001D2559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7873484223F3085A00141848 /* Build configuration list for PBXProject "Playtomic Architecture Assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
